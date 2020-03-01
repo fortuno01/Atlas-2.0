@@ -1,0 +1,94 @@
+.header {
+    background: no-repeat url('imgs/headerBg.jpg') center / cover;
+    color: white;
+}
+.header__inner {
+    @extend %content-centering;
+    padding: 50px 120px 277px;
+  }
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+}
+
+.header__menu {
+    width: 24px;
+    height: 28px;
+}
+
+%burger-line {
+    display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        width: 24px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #fff;
+}
+
+.header__burger-button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    span {
+        @extend %burger-line;
+        position: relative;
+        bottom: 2px;
+        &::after {
+            @extend %burger-line;
+            content: '';
+            position: absolute;
+            width: 12px;
+            bottom: -12px;
+            left: 0;
+        }
+        &::before {
+            @extend %burger-line;
+            content: '';
+            position: absolute;
+            top: -12px;
+            left: 0;            
+        }
+    }
+}
+
+.header__logo {
+    margin-left: 4.16vw;
+}
+
+.contacts {
+    color: $grey;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contacts__number {
+    color: $white;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    margin-left: 33px;
+    font-weight: 700;
+}
+
+.header__message {
+    padding-top: 198px;
+    width: 74.5%;
+}
+
+.header__slogan {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.28;
+}
+
+.header__supplement {
+    padding: 17px 0 48px;
+}

@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Museo Sans Cyrl", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+$grey: #818895;
+$white: #fff;
+$blue: #1e5eed;
+$black: #393e46;
+
+%content-centering {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.supplement {
+  font-size: 18px;
+  color: $grey;
+}
+
+.call-btn {
+  padding: 20px 64px 22px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $white;
+  background-color: $blue;
+  box-shadow: 0px 12px 24px rgba(30, 94, 237, 0.195511);
+  border: 0;
+  border-radius: 4px;
+}
+
+.call-btn_small {
+  padding: 16px 43px 18px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 44px;
+  color: $black;
+}
+
+.box-title {
+  text-align: center;
+}

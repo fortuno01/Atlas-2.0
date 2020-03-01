@@ -1,0 +1,33 @@
+{
+  "name": "atlas-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "onchange \"src/mainPage/styles/*.scss\" -- npm run build:css",
+    "build:css": "npm run scssToCss && npm run autoprefix",
+    "scssToCss": "node-sass --output-style expanded src/mainPage/styles/mainPage.scss dist/mainPage/mainPage.css",
+    "autoprefix": "postcss dist/mainPage/*.css -u autoprefixer -r",
+    "server": "browser-sync \"dist/mainPage\" -w",
+    "dev": "concurrently -k true \"npm run server\" \"npm run watch:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortuno01/Atlas-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortuno01/Atlas-2.0/issues"
+  },
+  "homepage": "https://github.com/fortuno01/Atlas-2.0#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "onchange": "^6.1.0",
+    "postcss-cli": "^7.1.0"
+  },
+  "dependencies": {}
+}

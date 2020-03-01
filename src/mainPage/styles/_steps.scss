@@ -1,0 +1,53 @@
+.steps__inner {   
+    padding: 50px 8vw 170px 5vw;
+    @extend %content-centering;
+}
+
+.steps__items {
+    margin-top: 141px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    line-height: 1.44;
+}
+
+.steps__item {
+    height: 190px;
+    width: 340px;
+}
+
+.steps__text-box {
+    padding-left: 38px;
+}
+
+.steps__header {
+    color: #424750;
+    font-size: 32px;
+    padding-bottom: 14px;
+    line-height: 1.15;
+}
+
+.steps__call-btn {
+    margin-top: 27px;
+}
+
+.steps__item_one {
+    background: no-repeat url('imgs/numberOne.png') 0 10px;
+}
+
+.steps__item_two {
+    background: no-repeat url('imgs/numberTwo.png') 0 10px;
+}
+
+.steps__item_three {
+    background: no-repeat url('imgs/numberThree.png') 0 10px;
+}
+
+.steps__item_four {
+    background: no-repeat url('imgs/numberFour.png') 0 10px;
+}
+
+
+
