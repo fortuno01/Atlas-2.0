@@ -48,9 +48,11 @@ select {
 }
 
 $grey: #818895;
+$light-grey: #CACFD9;
 $white: #fff;
 $blue: #1e5eed;
 $black: #393e46;
+$more-btn-color: #0a55fe;
 
 %content-centering {
   max-width: 1440px;
@@ -61,6 +63,29 @@ $black: #393e46;
 .supplement {
   font-size: 18px;
   color: $grey;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  width: 233px;
+  background: $white;
+  border: 1px solid rgba(132, 155, 208, 0.201738);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 18px 28px 20px;
+  font-size: 18px;
+  line-height: 1.16;
+  color: $light-grey;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.form__call-btn {
+  align-self: flex-end;
 }
 
 .call-btn {
@@ -78,10 +103,29 @@ $black: #393e46;
   padding: 16px 43px 18px;
 }
 
+.more-btn {
+  color: $more-btn-color;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+  &:hover {
+    scale: 1.15;
+  }
+}
+
 .title {
   font-weight: 700;
   font-size: 44px;
   color: $black;
+}
+
+.subtitle {
+  color: #424750;
+  font-size: 32px;
+  line-height: 1.15;
 }
 
 .box-title {

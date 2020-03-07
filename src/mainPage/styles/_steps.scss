@@ -1,6 +1,6 @@
-.steps__inner {   
-    padding: 50px 8vw 170px 5vw;
+.steps__inner {
     @extend %content-centering;
+    padding: 50px 8vw 170px 5vw;
 }
 
 .steps__items {
@@ -18,15 +18,12 @@
     width: 340px;
 }
 
-.steps__text-box {
-    padding-left: 38px;
+.steps__subtitle {
+    padding-bottom: 14px;
 }
 
-.steps__header {
-    color: #424750;
-    font-size: 32px;
-    padding-bottom: 14px;
-    line-height: 1.15;
+.steps__text-box {
+    padding-left: 38px;
 }
 
 .steps__call-btn {

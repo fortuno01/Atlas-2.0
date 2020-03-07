@@ -1,4 +1,77 @@
 .features {
     background-color: #F6F9FC;
-    padding: 68px 0 171px;
 }
+
+.features__inner {
+    @extend %content-centering;
+    padding-bottom: 173px;
+}
+
+.features__title {
+    padding-top: 67px;
+    padding-bottom: 59px;
+}
+
+.features__items-row {
+    margin: 0 auto;
+    max-width: 1095px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__items-row_margin-top {
+    padding-top: 98px;
+}
+
+.features__item {
+    background-color: #fff;
+    width: 487px;
+    height: 219px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.features__text {
+    position: relative;
+    padding: 40px;
+}
+
+.features__subtitle {
+    padding-bottom: 18px;
+}
+
+.features__more-btn {
+    position: absolute;
+    bottom: 40px;
+}
+
+.features__picture-box {
+    width: 171px;
+    flex-shrink: 0;
+}
+
+.features__picture-box_boygirl {
+    background: no-repeat url('imgs/boygirl.jpg') center/cover;
+}
+
+.features__picture-box_heisenberg {
+    background: no-repeat url('imgs/heisenberg.jpg') center/cover;
+}
+
+.features__picture-box_cats {
+    background: no-repeat url('imgs/cats.jpg') center/cover;
+}
+
+.features__item_form {
+    display: block;
+    background: 0 0;
+    overflow: visible;
+}
+
+.features__form {
+    flex-grow: 1;
+}
+
+
