@@ -1,0 +1,16 @@
+.testimonials {
+    background: no-repeat url('imgs/testimonials-bg.jpg') center / cover;
+}
+
+.testimonials__inner {
+    padding: 59px 100px 224px;
+    @extend %content-centering;
+    text-align: center;
+}
+
+.testimonials__title {
+    font-size: 50px;
+    line-height: 1.28;
+    font-weight: 900;
+    color: $white;
+}

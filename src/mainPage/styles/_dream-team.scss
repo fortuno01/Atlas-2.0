@@ -1,0 +1,42 @@
+.dream-team__inner {
+    @extend %content-centering;
+    padding: 56px 156px 132px;
+    text-align: center;
+}
+
+.dream-team__workers {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 110px;
+}
+
+.worker {
+    width: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.worker__name {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.16;
+    padding-top: 18px;
+}
+
+.worker__post {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.16;
+    color: $light-grey;
+}
+
+.worker__message {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    padding: 24px 0 18px;
+    color: $grey;
+}
+

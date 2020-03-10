@@ -70,8 +70,12 @@ $more-btn-color: #0a55fe;
   flex-direction: column;
 }
 
+.form__inputs-wraper {
+  margin-bottom: 40px;
+}
+
 .form__input {
-  width: 233px;
+  width: 223px;
   background: $white;
   border: 1px solid rgba(132, 155, 208, 0.201738);
   box-sizing: border-box;
@@ -81,7 +85,9 @@ $more-btn-color: #0a55fe;
   line-height: 1.16;
   color: $light-grey;
   font-weight: 500;
-  margin-bottom: 40px;
+  &:nth-child(1) {
+    margin-right: 25px;
+  }
 }
 
 .form__call-btn {
@@ -117,6 +123,7 @@ $more-btn-color: #0a55fe;
 }
 
 .title {
+  line-height: 1.30;
   font-weight: 700;
   font-size: 44px;
   color: $black;
@@ -126,8 +133,16 @@ $more-btn-color: #0a55fe;
   color: #424750;
   font-size: 32px;
   line-height: 1.15;
+  font-weight: 700;
 }
 
 .box-title {
   text-align: center;
+}
+
+.socials {
+  width: 108px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
