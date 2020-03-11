@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-ul[class],
-ol[class] {
+ul,
+ol {
   padding: 0;
   list-style: none;
 }
@@ -16,8 +16,8 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -141,4 +141,8 @@ $blue-darker: #0a55fe;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.socials_bigger {
+  width: 140px;
 }

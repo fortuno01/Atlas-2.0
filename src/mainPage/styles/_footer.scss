@@ -1,0 +1,51 @@
+.footer__inner {
+    padding: 124px 120px 68px;
+    @extend %content-centering;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    height: 209px;
+}
+
+.footer__item:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__list-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    padding-bottom: 33px;
+}
+
+.footer__list {
+    font-size: 16px;
+    line-height: 1.19;
+    font-weight: 500;
+    li + li {
+        padding-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: $grey;
+    }
+}
+
+.footer__bottom {
+    padding-top: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__number_footer {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.66;
+    color: $black;
+}
