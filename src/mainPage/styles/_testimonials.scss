@@ -5,7 +5,9 @@
 .testimonials__inner {
     padding: 59px 100px 224px;
     @extend %content-centering;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonials__title {
@@ -13,4 +15,66 @@
     line-height: 1.28;
     font-weight: 900;
     color: $white;
+    padding-bottom: 152px;
 }
+
+.testimonials__reviews-box {
+    background-color: $white;
+    border-radius: 8px;
+    width: 780px;
+    padding: 50px;
+    box-shadow: 0px 12px 60px rgba(0, 0, 0, 0.5);
+}
+
+.testimonials__review-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.66;
+    color: #424956;
+    padding-bottom: 30px;
+}
+
+.testimonials__review-header {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__name-box {
+    padding-left: 20px;
+}
+
+.testimonials__reviewer-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.67;
+    color: $black;
+}
+
+.testimonials__reviewer-home {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: $light-grey;
+}
+
+.testimonials__reviews-nav {
+    padding-top: 30px;
+    display: flex;
+}
+
+.testimonials__nav-dot {
+    background-color: $grey;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    & + .testimonials__nav-dot {
+        margin-left: 15px;
+    }
+}
+
+.testimonials__nav-dot_selected {
+    background-color: $blue-darker;
+}
+

@@ -35,11 +35,6 @@ body {
   font-family: "Museo Sans Cyrl", Arial, Helvetica, sans-serif;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
-
 input,
 button,
 textarea,
@@ -52,7 +47,7 @@ $light-grey: #CACFD9;
 $white: #fff;
 $blue: #1e5eed;
 $black: #393e46;
-$more-btn-color: #0a55fe;
+$blue-darker: #0a55fe;
 
 %content-centering {
   max-width: 1440px;
@@ -98,6 +93,7 @@ $more-btn-color: #0a55fe;
   padding: 20px 64px 22px;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.17;
   color: $white;
   background-color: $blue;
   box-shadow: 0px 12px 24px rgba(30, 94, 237, 0.195511);
@@ -110,7 +106,7 @@ $more-btn-color: #0a55fe;
 }
 
 .more-btn {
-  color: $more-btn-color;
+  color: $blue-darker;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
