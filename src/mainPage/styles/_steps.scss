@@ -1,16 +1,16 @@
 .steps__inner {
     @extend %content-centering;
-    padding: 50px 8vw 170px 5vw;
+    padding: 50px 120px 170px 80px;
 }
 
 .steps__items {
     margin-top: 141px;
     height: 450px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-content: flex-start;
     line-height: 1.44;
+    display: grid;
+    grid-template-areas: 'one three three'
+    'two two four';
+    row-gap: 56px;
 }
 
 .steps__item {
@@ -31,18 +31,25 @@
 }
 
 .steps__item_one {
+    grid-area: one;
     background: no-repeat url('imgs/numberOne.png') 0 10px;
 }
 
 .steps__item_two {
+    justify-self: end;
+    grid-area: two;
     background: no-repeat url('imgs/numberTwo.png') 0 10px;
 }
 
 .steps__item_three {
+    align-self: center;
+    grid-area: three;
     background: no-repeat url('imgs/numberThree.png') 0 10px;
 }
 
 .steps__item_four {
+    justify-self: end;
+    grid-area: four;
     background: no-repeat url('imgs/numberFour.png') 0 10px;
 }
 

@@ -7,7 +7,7 @@
     "watch:css": "onchange \"src/mainPage/styles/*.scss\" -- npm run build:css",
     "build:css": "npm run scssToCss && npm run autoprefix",
     "scssToCss": "node-sass --output-style expanded src/mainPage/styles/mainPage.scss dist/mainPage/mainPage.css",
-    "autoprefix": "postcss dist/mainPage/*.css -u autoprefixer -r",
+    "autoprefix": "postcss dist/mainPage/*.css --no-map -u autoprefixer -r",
     "server": "browser-sync \"dist/mainPage\" -w",
     "dev": "concurrently -k true \"npm run server\" \"npm run watch:css\""
   },
