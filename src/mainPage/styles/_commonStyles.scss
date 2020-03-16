@@ -78,10 +78,19 @@ $blue-darker: #0a55fe;
   padding: 18px 28px 20px;
   font-size: 18px;
   line-height: 1.16;
-  color: $light-grey;
+  color: $black;
   font-weight: 500;
+  transition: box-shadow .3s,
+  border-color .3s;
+  &::placeholder {
+    color: $light-grey;
+  }
   &:nth-child(1) {
     margin-right: 25px;
+  }
+  &:focus {
+    box-shadow: 0 0 0 1px #14bdeb;
+    border-color: #14bdeb;
   }
 }
 
