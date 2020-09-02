@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let reviewNumber = 0;
   const DOTS = document.querySelectorAll(".testimonials__nav-dot");
-  reviewWidth = document.querySelector(".testimonials__review").clientWidth;
+  const reviewWidth = document.querySelector(".testimonials__review").clientWidth;
 
   document
     .querySelector(".testimonials__reviews-nav")
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   const phoneInput = document.querySelector('input[name=phone]');
-  phoneMask = {
+  const phoneMask = {
     mask: '+{7}(#00)000-00-00',
     definitions: {
       '#': /[9]/,

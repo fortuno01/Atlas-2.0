@@ -77,8 +77,10 @@ select {
   line-height: 1.16;
   color: #393e46;
   font-weight: 500;
-  -webkit-transition: box-shadow .3s, border-color .3s;
-  transition: box-shadow .3s, border-color .3s;
+  -webkit-transition: box-shadow .3s,
+ border-color .3s;
+  transition: box-shadow .3s,
+ border-color .3s;
 }
 
 .form__input::-webkit-input-placeholder {
@@ -119,7 +121,7 @@ select {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  color: #fff;
+  color: #f3f5f7;
   background-color: #1e5eed;
   box-shadow: 0px 12px 24px rgba(30, 94, 237, 0.195511);
   border: 0;
@@ -304,7 +306,8 @@ select {
   height: 450px;
   line-height: 1.44;
   display: grid;
-  grid-template-areas: 'one three three' 'two two four';
+  grid-template-areas: 'one three three'
+ 'two two four';
   row-gap: 56px;
 }
 
