@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83d4fa6e-7296-474b-8d77-4281aae87ad7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/mainPage/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mainPage/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mainPage/mainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mainPage/mainPage.css" afterDir="false" />
+    <list default="true" id="83d4fa6e-7296-474b-8d77-4281aae87ad7" name="Default Changelist" comment="test">
+      <change beforePath="$PROJECT_DIR$/src/mainPage/styles/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPage/styles/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -42,6 +43,7 @@
       <workItem from="1597825873289" duration="107000" />
       <workItem from="1598629121248" duration="99000" />
       <workItem from="1599034805897" duration="319000" />
+      <workItem from="1623684056076" duration="179000" />
     </task>
     <servers />
   </component>
@@ -58,10 +60,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="lkl;kl;krwe &#10;fdsfl;fkjlsd" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597767554848">
